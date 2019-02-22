@@ -1,5 +1,5 @@
 # Pregnancy Prediction
-This repo provides source code for paper: [Predicting pregnancy using large-scale data from a women's health tracking mobile application](https://arxiv.org/pdf/1812.02222.pdf).
+This repo provides source code for paper: [Predicting pregnancy using large-scale data from a women's health tracking mobile application](https://arxiv.org/abs/1812.02222).
 
 ## File Descriptions
 `main.py`: main entry of models
