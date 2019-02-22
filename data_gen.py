@@ -69,7 +69,7 @@ def genSingleCycleData():
             features.append([d, sexName])
     finalProb = 1 - np.prod(1 - np.array(probs)) + np.random.randn() * epsilon
     finalProb = max(0, finalProb)
-    print("# finalProb: {}".format(finalProb))
+    # print("# finalProb: {}".format(finalProb))
     label = 1 if finalProb > 0.5 else 0
     return features, label
 
