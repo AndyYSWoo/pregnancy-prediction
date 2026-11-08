@@ -1,0 +1,4 @@
+# TF 2.12 is the last macOS arm64 release supporting this Python version.
+# The repository's TF1 code runs through the local legacy_tf compatibility shim.
+tensorflow-macos==2.12.0
+scikit-learn>=1.0,<1.7
