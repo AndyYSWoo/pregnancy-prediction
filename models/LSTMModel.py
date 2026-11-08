@@ -1,4 +1,4 @@
-import tensorflow as tf
+from legacy_tf import tf
 from BaseModel import BaseModel
 
 

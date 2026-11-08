@@ -5,7 +5,7 @@ import logging, json, time
 
 import numpy as np
 from sklearn.metrics import roc_auc_score, average_precision_score, roc_curve, precision_recall_curve
-import tensorflow as tf
+from legacy_tf import tf
 
 class BaseModel(object):
     def __init__(self, FLAGS):

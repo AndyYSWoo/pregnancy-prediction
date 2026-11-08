@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+from legacy_tf import tf
 
 from BaseModel import BaseModel
 from data_gen import symptomIndices

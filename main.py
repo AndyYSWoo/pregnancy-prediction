@@ -2,7 +2,7 @@ import time
 import os
 import logging
 
-import tensorflow as tf
+from legacy_tf import tf
 
 from models.LRModel import LRModel
 from models.BMSModel import BMSModel
